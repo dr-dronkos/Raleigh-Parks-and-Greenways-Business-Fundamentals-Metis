@@ -15,8 +15,10 @@ The project used three open source data sets available on Open Data Raleigh:
 
 - ZIP Code Boundaries in Wake County
 (https://data-ral.opendata.arcgis.com/datasets/Wake::zip-codes/explore?location=35.798550%2C-78.619900%2C10.58)
-![image](https://user-images.githubusercontent.com/95940978/159618572-0a01c66b-916a-44a8-9f94-88bb22a80fba.png)
 
 ## Tools and Methodology
 Google Sheets was used to clean an perform a preliminary exploratory data analysis of each data set. Google Sheets was also used to group the 42 activities available at the parks into 7 larger categories to be used as filters in Tableau.  Python was used to pair Location ID columns in the Raleigh Greenway Trails dataset with .geojson files also available from Open Data Raleigh to recover latitude and longitude coordinates. Python was also used to pair these coordinates with the ZIP code data to make the datapoints searchable by ZIP code in the interactive dashboard. The dashboard was created using Tableau Public, and allows users to filter both parks and greenways by ZIP code. Greenway data can additionally be filtered by Accessibility and Length (Long trails are longer than 5 miles; Short trails are shorter than 3 miles). Park data can be filtered by Arts (contains an arts center, museum, library, etc.), Bike or Skate (contains bike trails, a skate park, a BMX track, etc.), Family (contains a community center, playground, picnic tables, etc.), Fitness (contains a gym, fitness course, track, etc.), Pets (allows dogs or horses), Sports (contains baseball fields, tennis courts, handball courts, etc.), and Watersports (allows boating, fishing, or canoeing, etc.).
+
+## Communication
+[Business_Fundamentals_Metis_Danielle_Ronkos.pdf](https://github.com/dr-dronkos/Raleigh-Parks-and-Greenways-Business-Fundamentals-Metis/files/8329543/Business_Fundamentals_Metis_Danielle_Ronkos.pdf)
 
